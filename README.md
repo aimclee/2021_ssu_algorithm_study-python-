@@ -1,1 +1,1 @@
-# 2021_ssu_algorithm_study-python-
+# 2021_ssu_algorithm_study-pythonic-
