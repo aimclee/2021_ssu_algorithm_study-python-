@@ -1,8 +1,6 @@
 import time
-
+import datetime
 start_time = time.time()
-
-#sol1 -> time: 6.945800542831421
 
 n,m,k = map(int,input().split())
 data = list(map(int, input().split()))
@@ -27,5 +25,7 @@ while True:
 print(result)
 
 end_time = time.time()
-
-print("time: ", end_time - start_time)  
+sec = end_time - start_time
+times = str(datetime.timedelta(seconds=sec)).split(".")
+times = times[0]
+print(times)
