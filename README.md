@@ -7,3 +7,4 @@
 
 ### 3. 책과 다른 풀이
 [Part 2. 그리디 - 큰 수의 법칙](https://github.com/aimclee/2021_ssu_algorithm_study-python-/blob/aimclee/greedy/%ED%81%B0%EC%88%98%EC%9D%98%EB%B2%95%EC%B9%99_review.py)
+[Part 2. 그리디 - 큰 수의 법칙](https://github.com/aimclee/2021_ssu_algorithm_study-python-/blob/aimclee/greedy/%ED%81%B0%EC%88%98%EC%9D%98%EB%B2%95%EC%B9%99_review.py)
