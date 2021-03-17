@@ -15,7 +15,7 @@ for i in range(n):
 	if x>=n-1:
 		x-=1
 		continue
-	if y<=0:
+	if y<=0: 
 		y+=1
 		continue
 	if y>=n-1:
