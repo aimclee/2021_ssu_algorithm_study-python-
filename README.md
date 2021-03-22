@@ -11,6 +11,6 @@
 ### 기타
 * 책의 문제와 비슷한 외부문제 : [Part 2. DFS 음료수 얼려먹기 - 백준 2667 : 단지번호붙이기](https://www.acmicpc.net/problem/2667)
 * 스터디중 나온 팁 : 
-  1. python sort와 sorted 성능차이 크게는 안남. (sort>sorted)
+  1. python sort와 sorted 성능차이 크게는 안남. (sort가 sorted보다 약간 더 빠름)
   2. zip을 통해 두개의 리스트를 key:value꼴의 딕셔너리로 만들 수 있다.
   3. 2차원 리스트에서 딕셔너리를 만들때 - arr[:][0], arr[:][1]를  각각 key와 value꼴의 딕셔너리로 만들 수 있다.
