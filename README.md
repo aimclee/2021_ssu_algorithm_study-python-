@@ -9,4 +9,4 @@
 * [Part 2. 그리디 - 큰 수의 법칙](https://github.com/aimclee/2021_ssu_algorithm_study-python-/blob/aimclee/greedy/%ED%81%B0%EC%88%98%EC%9D%98%EB%B2%95%EC%B9%99_review.py) 
 
 ### 기타
-* 책의 문제와 비슷한 문제 : [Part 2. DFS 음료수 얼려먹기 - 백준 2667 : 단지번호붙이기](https://www.acmicpc.net/problem/2667)
+* 책의 문제와 비슷한 외부문제 : [Part 2. DFS 음료수 얼려먹기 - 백준 2667 : 단지번호붙이기](https://www.acmicpc.net/problem/2667)
