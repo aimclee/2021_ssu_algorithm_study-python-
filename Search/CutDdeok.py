@@ -1,3 +1,5 @@
+# 떡을 자를 위치가 end(가장 긴 떡의 길이)쪽에 가까워질수록 손님이 가져갈 떡의 양이 줄어든다
+
 def cut_ddeok(array, start, end, m):
     result = 0 # 최적화 문제로 당시 제일 좋은 값을 저장해야함
     while start <= end:
