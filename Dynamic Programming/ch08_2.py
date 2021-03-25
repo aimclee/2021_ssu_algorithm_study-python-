@@ -3,20 +3,29 @@
 # 정수를 입력받는다.
 x = int(input())
 # dynamic programming memoization
-d = [0] * 1000001
+d = [0] * (x+1)
 
-# 다이나믹 프로그래밍(Dynamic Programming) 진행 : Bottom-up
-for i in range(2, x + 1):
-    # 현재의 수에서 1을 빼는 경우
-    d[i] = d[i - 1] + 1
-    # 현재의 수가 2로 나누어 떨어지는 경우
-    if i % 2 == 0:
-        d[i] = min(d[i], d[i // 2] + 1)
-    # 현재의 수가 3으로 나누어 떨어지는 경우
-    if i % 3 == 0:
-        d[i] = min(d[i], d[i // 3] + 1)
-    # 현재의 수가 5로 나누어 떨어지는 경우
-    if i % 5 == 0:
-        d[i] = min(d[i], d[i // 5] + 1)
+def dp(x):
+    if x == 1:
+        return 0
+    if d[x] > 0:
+        return d[x]
 
-print(d[x])
+    d[x] = dp(x-1)+1
+    if x % 2 == 0:
+        tmp = dp(x//2)+1;
+        if d[x] > tmp:
+            d[x] = tmp
+    if x % 3 == 0:
+        tmp = dp(x//3)+1;
+        if d[x] > tmp:
+            d[x] = tmp
+
+    if x % 5 == 0:
+        tmp = dp(x//5)+1;
+        if d[x] > tmp:
+            d[x] = tmp
+
+    return d[x]
+
+print(dp(x))
