@@ -1,5 +1,5 @@
 def cut_ddeok(array, start, end, m):
-    result = 0 # 최적화 문제로 임시로 값을 저장해야함
+    result = 0 # 최적화 문제로 당시 제일 좋은 값을 저장해야함
     while start <= end:
         total = 0 # 잘랐을 때 남는 떡의 양
         mid = (start + end) // 2
