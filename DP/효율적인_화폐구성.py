@@ -21,6 +21,6 @@ for k in counts:
 
 count_int.sort()
 
-print(count_int[-1])
+print(count_int[0])
 
 
