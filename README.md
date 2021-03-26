@@ -10,8 +10,8 @@
 
 ### 기타
 * 책의 문제와 비슷한 외부문제 :
-* 1) [Part 2. DFS 음료수 얼려먹기 - 백준 2667 : 단지번호붙이기](https://www.acmicpc.net/problem/2667)
-* 2) [Part 2. DP 1로 만들기 - 백준 1463 : 1로 만들기](https://www.acmicpc.net/problem/1463)
+  1) [Part 2. DFS 음료수 얼려먹기 - 백준 2667 : 단지번호붙이기](https://www.acmicpc.net/problem/2667)
+  2) [Part 2. DP 1로 만들기 - 백준 1463 : 1로 만들기](https://www.acmicpc.net/problem/1463)
 * 스터디중 나온 팁 : 
   1. python sort와 sorted 성능차이 크게는 안남. (sort가 sorted보다 약간 더 빠름)
   2. zip을 통해 두개의 리스트를 key:value꼴의 딕셔너리로 만들 수 있다.
