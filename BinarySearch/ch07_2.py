@@ -10,7 +10,8 @@ arr.sort()
 def binary_search(front, back, target, arr):
     mid = (front + back) // 2
     if front > back:
-        print("no ")
+        #print("no ")
+        print("no", end=' ')
         return 0
     if arr[mid] == target:
         print("yes ")
