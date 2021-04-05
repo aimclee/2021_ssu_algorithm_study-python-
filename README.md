@@ -7,6 +7,8 @@
 
 ### 3. 책과 다른 풀이
 * [Part 2. 그리디 - 큰 수의 법칙](https://github.com/aimclee/2021_ssu_algorithm_study-python-/blob/aimclee/greedy/%ED%81%B0%EC%88%98%EC%9D%98%EB%B2%95%EC%B9%99_review.py) 
+* [Part 3. 그리디 - 04. 만들 수 없는 금액](https://github.com/aimclee/2021_ssu_algorithm_study-python-/blob/aimclee/greedy/%EB%A7%8C%EB%93%A4_%EC%88%98_%EC%97%86%EB%8A%94_%EA%B8%88%EC%95%A1.py)
+* [Part 3. 그리디 - 05. 볼링공 고르기](https://github.com/aimclee/2021_ssu_algorithm_study-python-/blob/aimclee/greedy/%EB%B3%BC%EB%A7%81%EA%B3%B5_%EA%B3%A0%EB%A5%B4%EA%B8%B0.py)
 
 ### 기타
 * 책의 문제와 비슷한 외부문제 :
